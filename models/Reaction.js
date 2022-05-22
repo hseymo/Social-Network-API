@@ -1,11 +1,11 @@
 const { Schema, model } = require('mongoose');
 const moment = require('moment')
 
-const reactionSchema = new mongoose.Schema(
+const reactionSchema = new Schema(
     {
         reactionId: {
             type: Schema.Types.ObjectId,
-            default: new ObjectId,
+            // default: new ObjectId,
         },
         reactionBody: {
             type: String, 
@@ -17,16 +17,12 @@ const reactionSchema = new mongoose.Schema(
             type: String, 
             required: true
         },
-        // check this is correct????
-        createdAt: {
-            date: moment().format(),
-            // default: 
-        },
     },
     {
       toJSON: {
       },
       id: false,
+      timestamps: true
     }
 )
 

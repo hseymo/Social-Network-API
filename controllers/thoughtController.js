@@ -33,7 +33,7 @@ module.exports = {
         !user
             ? res.status(404).json({
             message: 'Error creating thought - no user with that ID' })
-            : res.json(thought)
+            : res.json(user)
     ).catch((err) => {
         console.log(err);
         res.status(500).json(err);
