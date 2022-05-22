@@ -13,7 +13,8 @@ const thoughtSchema = new Schema(
         },
         // check this is correct????
         createdAt: {
-            date: moment().format()
+            date: moment().format(),
+            // default: 
         },
         username: { 
             type: String, 
@@ -27,7 +28,7 @@ const thoughtSchema = new Schema(
       },
       id: false,
     }
-  );
+);
 
   // Create a virtual property `reactionCount` that gets the # of reactions
   thoughtSchema
