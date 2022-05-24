@@ -99,7 +99,7 @@ Thought + Reactions <br>
 5. When finished, run CONTROL-C in terminal to end stop nodemon, and trash the session. 
 
 <br>
-Please check out this [video](https://drive.google.com/file/d/1-wgn8Qr2lwEK5SyDUetRBnqtjACxTj0W/view) for a demonstration of how to use this program. 
+Please check out this [video](https://drive.google.com/file/d/1-wgn8Qr2lwEK5SyDUetRBnqtjACxTj0W/view) to view a demonstration of how to use this program. 
 <br>
 
 ### **Screenshots**
