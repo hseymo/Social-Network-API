@@ -88,12 +88,12 @@ After following the instructions in installation:
 1. Open the "index.js" file in your integrated terminal.
 2. Run command "npm run seed" to seed users into your database.
 9. Run command "npm run start" (or "node server.js"). Alternatively, if you have Nodemon installed, run "npm run watch" (or "nodemon server.js"). 
-10. Open insomnia and type in "localhost:3001/api/_" in the address bar. Check out the following routes:
-User + Friends
+10. Open insomnia and type in "localhost:3001/api/_" in the address bar. Check out the following routes: <br>
+User + Friends <br>
 - `/api/users` to get all users or create user
 - `/api/users/:userId` to get one user, update and delete user
-- `/api/users/:userId/friends/:friendId` to add or delete a friend
-Thought + Reactions
+- `/api/users/:userId/friends/:friendId` to add or delete a friend <br>
+Thought + Reactions <br>
 - `/api/thoughts` to get all thoughts or create thought
 - `/api/thoughts/:thoughtId` to get one thought, update or delete. 
 - `/api/thoughts/:thoughtId/reactions` to create reaction 
