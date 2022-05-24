@@ -76,8 +76,6 @@ NPM Packages
 
 ## Description
 ---
- <br><br>
-
  The goal of this project is to build an API for a social network that allows users to share their thoughts, react to a friends' thoughts, and create a friend list. This project utilizes Express.js for routing, MongoDB for a NoSQL database, and Mongoose Object Document Mapper for Node.js. By following the installation and usage instructions in this README, you can use this API too! Run the commands specified to develop the database and seed it with data (if desired). Start the server and perform Get/Post/Put/Delete routes to the API from Insomnia to see it in action. This program has full CRUD functionality (create, read, update and delete)! Through this project I learned how to create a NoSQL database and use CRUD operations with my database. 
  <br><br>
 This project is not deployed. <br><br>
@@ -88,11 +86,11 @@ After following the instructions in installation:
 1. Open the "index.js" file in your integrated terminal.
 2. Run command "npm run seed" to seed users into your database.
 9. Run command "npm run start" (or "node server.js"). Alternatively, if you have Nodemon installed, run "npm run watch" (or "nodemon server.js"). 
-10. Open insomnia and type in "localhost:3001/api/_" in the address bar. Check out the following routes: <br>
+10. Open insomnia and type in "localhost:3001/api/_" in the address bar. Check out the following routes: <br><br>
 User + Friends <br>
 - `/api/users` to get all users or create user
 - `/api/users/:userId` to get one user, update and delete user
-- `/api/users/:userId/friends/:friendId` to add or delete a friend <br>
+- `/api/users/:userId/friends/:friendId` to add or delete a friend <br><br>
 Thought + Reactions <br>
 - `/api/thoughts` to get all thoughts or create thought
 - `/api/thoughts/:thoughtId` to get one thought, update or delete. 
