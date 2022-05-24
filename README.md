@@ -1,4 +1,4 @@
-# **[Social Network API](URL)**
+# **[Social Network API](https://drive.google.com/file/d/1-wgn8Qr2lwEK5SyDUetRBnqtjACxTj0W/view)**
 
 ![Badge](https://img.shields.io/badge/license-MIT-blue)
 
@@ -70,7 +70,7 @@ NPM Packages
 - express
 - dotenv
 - mongoose 
-- Javascript date library???
+- moment
 
 <br>
 
@@ -82,35 +82,41 @@ NPM Packages
  <br><br>
 This project is not deployed. <br><br>
 
-## Usage - NEED TO EDIT
+## Usage
 ---
 After following the instructions in installation: 
-1. Open the database file in your terminal. 
-2. Run command "mysql -uroot -p" and enter your password (note: keystrokes will not show).
-3. Run command "SOURCE schema.sql" to set up the database and tables.
-4. Optionally, run command "npm run resetdb" to replace steps 2 and 3 (enter password when prompted).
-5. OK to 'quit' MySql.
-6. Create a file called ".env" in the root folder of the program. In this folder include the following information: <br>
-DB_NAME='' <br>
-DB_USER='' <br>
-DB_PW='' <br>
-7. Open the "server.js" file in your integrated terminal. 
-8. Run command "npm run seed" (or "node seeds/index.js") to seed the database if desired.
+1. Open the "index.js" file in your integrated terminal.
+2. Run command "npm run seed" to seed users into your database.
 9. Run command "npm run start" (or "node server.js"). Alternatively, if you have Nodemon installed, run "npm run watch" (or "nodemon server.js"). 
-10. Open insomnia and type in "localhost:3001/api/_" in the address bar. Replace underscore with 'products', 'categories', or 'tags'.
-11. Enter get, post, delete or put requests as you please. 
+10. Open insomnia and type in "localhost:3001/api/_" in the address bar. Check out the following routes:
+User + Friends
+- `/api/users` to get all users or create user
+- `/api/users/:userId` to get one user, update and delete user
+- `/api/users/:userId/friends/:friendId` to add or delete a friend
+Thought + Reactions
+- `/api/thoughts` to get all thoughts or create thought
+- `/api/thoughts/:thoughtId` to get one thought, update or delete. 
+- `/api/thoughts/:thoughtId/reactions` to create reaction 
+- `/api/thoughts/:thoughtId/reactions/:reactionId` to delete reaction 
 12. When finished, run CONTROL-C in terminal to end stop nodemon, and trash the session. 
 
 <br>
-Please check out this [video](URL) for a demonstration of how to use this program. 
+Please check out this [video](https://drive.google.com/file/d/1-wgn8Qr2lwEK5SyDUetRBnqtjACxTj0W/view) for a demonstration of how to use this program. 
 <br>
 
 ### **Screenshots**
 --- 
-![screenshot](ADD URL HERE)
+Get all, get one, create, update and delete users. <br> Note the friendCount virtual on each user as well as the populated friends and thoughts arrays in the 'get one' user. <br>
+![screenshot](./assets/userRoutes.gif)
 <br>
-
+Add or remove friends <br>
+![screenshot](./assets/friendRoutes.gif) 
 <br>
+Get all, get one, create, update and delete thoughts. <br> Note the reactionCount virtual for each thought as well as the popuated reaction. <br>
+![screenshot](./assets/thoughtRoutes.gif)
+<br>
+Add or remove reactions <br>
+![screenshot](./assets/reactionRoutes.gif) 
 
 ## Contributing 
 ---
