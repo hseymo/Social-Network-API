@@ -85,8 +85,8 @@ This project is not deployed. <br><br>
 After following the instructions in installation: 
 1. Open the "index.js" file in your integrated terminal.
 2. Run command "npm run seed" to seed users into your database.
-9. Run command "npm run start" (or "node server.js"). Alternatively, if you have Nodemon installed, run "npm run watch" (or "nodemon server.js"). 
-10. Open insomnia and type in "localhost:3001/api/_" in the address bar. Check out the following routes: <br><br>
+3. Run command "npm run start" (or "node server.js"). Alternatively, if you have Nodemon installed, run "npm run watch" (or "nodemon server.js"). 
+4. Open insomnia and type in "localhost:3001/api/_" in the address bar. Check out the following routes: <br><br>
 User + Friends <br>
 - `/api/users` to get all users or create user
 - `/api/users/:userId` to get one user, update and delete user
@@ -96,7 +96,7 @@ Thought + Reactions <br>
 - `/api/thoughts/:thoughtId` to get one thought, update or delete. 
 - `/api/thoughts/:thoughtId/reactions` to create reaction 
 - `/api/thoughts/:thoughtId/reactions/:reactionId` to delete reaction 
-12. When finished, run CONTROL-C in terminal to end stop nodemon, and trash the session. 
+5. When finished, run CONTROL-C in terminal to end stop nodemon, and trash the session. 
 
 <br>
 Please check out this [video](https://drive.google.com/file/d/1-wgn8Qr2lwEK5SyDUetRBnqtjACxTj0W/view) for a demonstration of how to use this program. 
