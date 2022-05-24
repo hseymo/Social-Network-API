@@ -118,7 +118,7 @@ Add or remove reactions <br>
 
 ## Contributing 
 ---
-This project was completed by myself, Haley Seymour, with starter code provied from the University of Washington Web Development Bootcamp. If you would like to contribute, please do and let me know if you have any questions.
+This project was completed by myself, Haley Seymour, as part of the University of Washington Web Development Bootcamp. If you would like to contribute, please do and let me know if you have any questions.
 
 <br>
 
